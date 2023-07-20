@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m "iterate even numbers"
+git commit -m "Fibonacci series"
 git push
