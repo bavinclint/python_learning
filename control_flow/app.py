@@ -13,14 +13,26 @@
 
 # Fibonacci series:
 # the sum of two elements defines the next
-# a, b = 0, 1
-# while a < 10:
-#     print(a)
-#     a, b = b, a+b
+# def fib(n=int(input('Enter number: '))):  # return Fibonacci series up to n
+#     """Return a list containing the Fibonacci series up to n."""
+#     results = []
+#     a, b = 0, 1
+#     while a < n:
+#         results.append(a)
+#         a, b = b, a+b
+#     return results
 
-def greet(first_name, last_name):
-    print(f"Hi, {first_name} {last_name}")
-    print("Welcome on board")
+
+# number = print(fib())
+# number
 
 
-greet("Mosh", last_name="Hamadani")
+# def multiply(*numbers):
+#     total = 1
+#     for number in numbers:
+#         total *= number
+#     return total
+
+
+# print("Start")
+# print(multiply(1, 2, 3))
