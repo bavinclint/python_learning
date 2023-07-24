@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m "prime number"
+git commit -m "exception errors"
 git push
