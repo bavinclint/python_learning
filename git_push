@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m "exception errors"
+git commit -m "classes blueprint of an object"
 git push
