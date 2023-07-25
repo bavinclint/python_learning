@@ -43,20 +43,43 @@
 # # print(cloud.__tags["PYTHON"])
 # print(cloud._TagCloud__tags)
 
-class Product:
-    def __init__(self, price):
-        self.price = price
+# properties
 
-    @property
-    def price(self):
-        return self.__price
+# class Product:
+#     def __init__(self, price):
+#         self.price = price
 
-    @price.setter
-    def price(self, value):
-        if value < 0:
-            raise ValueError("Price cannot be negative.")
-        self.__price = value
+#     @property
+#     def price(self):
+#         return self.__price
+
+#     @price.setter
+#     def price(self, value):
+#         if value < 0:
+#             raise ValueError("Price cannot be negative.")
+#         self.__price = value
 
 
-product = Product(10)
-print(product.price)
+# product = Product(-50)
+# print(product.price)
+
+# Inheritance
+class Animal:
+    def __init__(self):
+        self.age = 1
+
+    def eat(self):
+        print("eat")
+
+# Animal: Parent, Base
+# Mammal: Child, Sub
+
+
+class Mammal(Animal):
+    def walk(self):
+        print("walk")
+
+
+class Fish(Animal):
+    def swim(self):
+        print("swim")
