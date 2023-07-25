@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m "custom containers"
+git commit -m "properties"
 git push
