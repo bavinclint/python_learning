@@ -83,3 +83,14 @@
 # class Fish(Animal):
 #     def swim(self):
 #         print("swim")
+
+def word(n):
+    print(n)
+    if n[0] == 0:
+        return
+    else:
+        int(word(n[-1] + 1))
+        n[-1] = n[-1] + n[-2]
+
+
+print(word("Hello World"))
